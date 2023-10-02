@@ -1,0 +1,82 @@
+1>What is html?
+Html stands for hyper text markup language.It gives structure for webpages.where hyper text means which text refers to the source.markup is a technique through which we write the text and language is a medium through which we communicate.
+
+2>What is use of doctype?
+<!doctype>DTD:document type declaration.which tells the version of the code.
+
+3>What is elements and attributes?
+elements:Elements are the combination of opening and closing tags.example:<p>-----</p>,<h1>-----</h1>.
+     attributes:attributes which gives the extra information about html elements they are written inside the tag.example:id,class,style,alt,src.
+
+4>Explain tags in html?
+Html tags are:
+  <head>---</head>,<title>---</title>,<meta>---</meta>,<body>----</body>,<p>-----</p>,<h1>-----</h1>,<h2>---</h2>,<h3>----</h3>,<h4>----</h4>,<h5>-----</h5>,<h6>-----</h6>,<img/>,<ol><li>----</li></ol>,<ul>------</ul>,<form>-----</form>,<table>------</table>.
+  example:<!doctype>
+          <html>
+          <head>
+          <title>-----</title>
+          </head>
+          <body>----</body>
+          </html>
+
+5>Difference between block and inline elements?
+Block level elements:They always start in a new line and takes the whole width of the line.
+example:paragraph tag,heading tag,div tag. 
+Inline elements: These elements appear side by side and takes the width of the content.
+example:image tag,span tag,anchor tag.
+
+6>Difference between semantic and non semantic elements?
+Semantic elements: They are meaningful to developer as well as browser.example:<header>,<main>,<article>,<section>,<footer>,<table>.
+Non-semantic elements: which has no meaning .example:<span>,<div>,<br>,<i>.
+
+7>Difference between readonly and disable?
+Readonly:it can't be edit but there will be focus on the screen & data will be submited.
+Disable:It can not be modifed further and it doesn't have any focus on the screen and data don't submit.
+
+8>Use of required attribute?
+Required attribute shows that the particular section is must to fill by the user.
+
+9>Explain anchor tag and its attributes?
+Anchor tag is used to insert a link which navigate one link to another link.
+attributes are href:hyper link reference and src:source.
+<a href=" " src="  ">---</a>.
+
+10>How to embed image on webpage?
+By using <img> we can embed image on webpage.
+example:<img src="image.jpg" alt="error">.
+
+11>What is list,types of list and how to display list in html?
+list:arranging the elements in bulleted or numbered formate is called list.they are 3 type
+1.order list//<ol type="number","a","A","i"><li>---</li></ol>
+2.unorder list//<ul type="circle","disc",><li>---</li></ul>
+3.description list//<dl>
+                     <dt>----</dt>
+                     <dd>-----<dd>
+                     </dl>
+
+12>How to embed audio and video tag?
+Audio tag:By using <audio> we can embed audio in html and attributes are controls,muted,autoplay.
+example:<audio controls>
+        <source src=" " type="   ">
+        </audio>
+Video tag:By using <video> we can enbed video in html and attributes are controls,muted,autoplay,width,height,poster.
+example:<video controls>
+        <source src=" " type=" ">
+         </video>
+
+13>What is iframe?
+iframe is used to display a webpage within a webpage and they are commonly used for youtube and embed videos.<iframe src=" " height=" " width=" ">
+
+14>How create form and explain form attributes name action method?
+<form>--</form> is required to create a form and it will help to interact with the user.the main attributes are name,action,method.
+Name attribute:it will describe the name of the form.
+Action attribute:it will  store the address of the form.
+Method attribute:
+ (i)get:the data will display on the url side/data will visible and it will use for only retrieve.
+ (ii)post:the data will not display on the url.
+ example:<form method="post/get" action=" " name=" ">---------</form>.
+
+ 15>Explain different types of input elements?
+ Input type elements are:
+ text,email,date,password,file,checkbox,radio,number,select,textarea.
+ <input type="text" value=" ">
